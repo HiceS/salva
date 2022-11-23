@@ -1,12 +1,11 @@
 [workspace]
-members = [ "build/salva2d", "build/salva3d", "examples2d", "examples3d" ]
+members = [ "build/salva3d" ]
 
 [profile.release]
 #lto = true
 #codegen-units = 1
 
 [patch.crates-io]
-salva2d = { path = "./build/salva2d" }
 salva3d = { path = "./build/salva3d" }
 
 #parry2d = { git = "https://github.com/sebcrozet/parry" }
