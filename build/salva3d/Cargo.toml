@@ -12,7 +12,7 @@ license = "Apache-2.0"
 edition = "2018"
 
 [features]
-default = [ "dim3" ]
+default = [ "dim3", "rapier" ]
 dim3    = [ ]
 parallel = [ "rayon" ]
 rapier = [ "parry", "rapier3d" ]

@@ -5,6 +5,9 @@ members = [ "build/salva3d" ]
 #lto = true
 #codegen-units = 1
 
+[profile.dev]
+opt-level = 1
+
 [patch.crates-io]
 salva3d = { path = "./build/salva3d" }
 
