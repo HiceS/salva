@@ -34,6 +34,6 @@ generational-arena = "0.2"
 instant = { version = "0.1", features = [ "now" ] }
 rayon = { version = "1", optional = true }
 
-nalgebra  = "0.31"
-parry3d = { version = "^0.11.1", optional = true }
-rapier3d = { version = "^0.16", optional = true }
+nalgebra = "0.32"
+parry3d = { version="0.13.1", optional = true}
+rapier3d = {path = "../../../rapier/crates/rapier3d", version = "*", features = ["wasm-bindgen", "serde-serialize"], optional = true}
